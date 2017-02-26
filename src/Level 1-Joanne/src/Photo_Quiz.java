@@ -83,7 +83,7 @@ public class Photo_Quiz implements MouseMotionListener {
 
 	@Override
 	public void mouseMoved(MouseEvent e) {
-		Component image2;
+
 		// TODO Auto-generated method stub
 		if (e.getComponent() == image2) {
 			JOptionPane.showMessageDialog(null, "Hi!");
