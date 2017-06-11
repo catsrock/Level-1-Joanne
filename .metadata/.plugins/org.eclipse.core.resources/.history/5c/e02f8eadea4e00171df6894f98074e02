@@ -1,0 +1,24 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class ChuckleClicker {
+	public static void main(String[] args) {
+		makeButtons();
+	
+	
+}
+	public static void makeButtons(){
+		ChuckleClicker chuckle=new ChuckleClicker();
+		JFrame tom=new JFrame();
+		tom.setVisible(true);
+		JPanel bob=new JPanel();
+		JButton billy=new JButton();
+		JButton joe=new JButton();
+		tom.pack();
+		tom.add(bob);
+		tom.add(billy);
+		tom.add(joe);
+		
+	}
+}

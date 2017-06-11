@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Chuckle_Clicker&apos; to &apos;ChuckleClicker&apos;&#x0A;- Original project: &apos;Level 1-Joanne&apos;&#x0A;- Original element: &apos;Chuckle_Clicker&apos;&#x0A;- Renamed element: &apos;ChuckleClicker&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Chuckle_Clicker&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Chuckle_Clicker.java[Chuckle_Clicker" matchStrategy="1" name="ChuckleClicker" qualified="false" references="true" similarDeclarations="false" stamp="1497213815695" textual="false" version="1.0"/>
+</session>
