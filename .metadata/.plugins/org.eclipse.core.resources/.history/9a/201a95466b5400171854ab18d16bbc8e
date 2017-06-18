@@ -1,0 +1,87 @@
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.net.URI;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class CutenessTV implements MouseListener{
+	private JFrame frame=new JFrame();
+	private JPanel panel=new JPanel();
+	private JButton but1=new JButton();
+	private JButton but2=new JButton();
+	private JButton but3=new JButton();
+	
+	CutenessTV(){
+		frame.add(panel);
+		frame.add(but1);
+		frame.add(but2);
+		frame.add(but3);
+		but1.addMouseListener(this);
+		but2.addMouseListener(this);
+		but3.addMouseListener(this);
+		frame.pack();
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(0);
+	}
+	void run(){
+		
+	}
+	void showDucks() {
+		playVideo("Drirjl5K9Yk");
+	}
+ 
+	void showFrog() {
+		playVideo("aSjCb-FfxhI");
+	}
+	
+	void showFluffyUnicorns() {
+		playVideo("qRC4Vk6kisY");
+	}
+ 
+	void playVideo(String videoID) {
+		try {
+	URI uri = new URI("https://www.youtube.com/watch?v=" + videoID + "?autoplay=1");
+			java.awt.Desktop.getDesktop().browse(uri);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		// TODO Auto-generated method stub
+		if(e.getSource()==but1){
+			showDucks();
+		}
+		else if(e.getSource()==but2){
+			showFrog();
+		}
+		else{
+			showFluffyUnicorns();
+		}	
+	}
+	@Override
+	public void mousePressed(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseReleased(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseEntered(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mouseExited(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+ 
+
+}
