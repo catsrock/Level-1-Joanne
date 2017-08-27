@@ -1,4 +1,4 @@
-import static org.junit.Assert.*;
+/*import static org.junit.Assert.*;
  
 import org.junit.Test;
  
@@ -14,7 +14,7 @@ import org.junit.Test;
  * 
  * Create a constructor, and getters and setters for the member variables. If they’re done right, these tests will pass.
  * 
- * **/
+ * *
  
 public class MinionTest {
  
@@ -45,4 +45,4 @@ public class MinionTest {
 }
  
  
- 
+ */
